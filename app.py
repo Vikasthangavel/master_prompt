@@ -3,9 +3,7 @@ import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-# --------------------------------------
-# API KEY
-# --------------------------------------
+
 
 os.environ["OPENROUTER_API_KEY"] = ""
 
