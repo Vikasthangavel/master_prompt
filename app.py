@@ -26,9 +26,6 @@ llm = ChatOpenAI(
     temperature=0.2
 )
 
-# --------------------------------------
-# SYSTEM PROMPT
-# --------------------------------------
 
 system_prompt = """
 # SPECIAL INSTRUCTION: think silently if needed
