@@ -7,17 +7,11 @@ from pathlib import Path
 
 os.environ["OPENROUTER_API_KEY"] = ""
 
-# --------------------------------------
-# Imports
-# --------------------------------------
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-# --------------------------------------
-# LLM
-# --------------------------------------
 
 llm = ChatOpenAI(
     model="openai/gpt-4o-mini",
